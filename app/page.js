@@ -2,26 +2,26 @@ import Image from "next/image";
 import Encabezado from "../src/components/Encabezado"; // Asegúrate de la ruta correcta
 import MiComponente2 from "../src/components/prueba2"; // Asegúrate de la ruta correcta
 
-
 export default function Home() {
   return (
-    <div>
-      <h1></h1>
-      <Image 
-        src="/next.svg" 
-        alt="Descripción de la imagen" 
-        width={600} 
-        height={300} 
-      />
-            <Encabezado />
+    <div className="bg-gray-950"
+      width={300}
+      height={200}
+      >
+        
+        <h1></h1>
+        <Image 
+          src="/logoMorf.svg" 
+          alt="Descripción de la imagen" 
+          width={200} 
+          height={100} 
+        />
+              <Encabezado />
 
-      <h1>Bienvenido a mi páginaaaaa</h1>
-      <MiComponente2 />
-      <Image  
-        src="/file.svg" 
-        alt="Descripción de la imagen" 
-        width={300} 
-        height={200} 
-      />
+        <h1>BIENVENIDOS</h1>
+        <MiComponente2 />
+        <div bg-color-red-200>
+          <h1>hoi</h1>
+        </div>
     </div>
   )}
